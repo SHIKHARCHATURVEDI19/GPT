@@ -1,4 +1,2 @@
-from .generate import generate_tokens, load_model
-
-__all__ = ["generate_tokens", "load_model"]
+"""Text-generation entry points for trained checkpoints."""
 
