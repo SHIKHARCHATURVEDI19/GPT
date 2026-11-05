@@ -4,3 +4,21 @@ Every evening, a curious student opened one of those books and wrote down a new 
 Questions became experiments, experiments became lessons, and lessons became new ideas.
 Learning is a journey built one careful step at a time.
 
+The student began with language. Each letter was assigned a number, and each sentence became a sequence that a machine could read. Short sequences were paired with the letters that followed them. In this way, a prediction problem emerged from ordinary text.
+
+Next came attention. A word could look backward at earlier words and decide which details mattered. Queries asked what to find, keys described what was available, and values carried the useful information. A triangular mask kept every position from peeking into the future.
+
+Several attention heads worked in parallel. One noticed nearby patterns, another followed longer relationships, and each produced a different view of the same passage. Their views were joined, transformed, and passed onward through a residual path.
+
+The model made imperfect predictions at first. A loss measured the difference between its guesses and the actual next characters. An optimizer adjusted millions of small values. Repeated practice slowly turned random output into recognizable fragments of language.
+
+Good experiments were recorded carefully. The student changed one setting at a time, compared training loss with validation loss, and saved checkpoints. When a run failed, the notes made it possible to understand why and begin again from a known point.
+
+Small models make excellent teachers. They expose every tensor shape, every matrix multiplication, and every design choice. Their output may be modest, but the ideas inside them are the same ideas that support far larger systems.
+
+One evening the student asked the model to continue a sentence. The first answer was clumsy, the second was surprising, and the third contained a phrase that had never appeared exactly in the training text. The machine had learned a pattern rather than a list.
+
+Curiosity led to better questions. How much context was enough? When did a wider embedding help? Why did too much learning rate make the loss unstable? Each question suggested a small experiment, and each experiment sharpened understanding.
+
+The library stayed open late. Outside, the town was quiet, but inside, a tiny Transformer trained one batch at a time. Its progress was measured, tested, saved, and shared so that another learner could reproduce the journey.
+
